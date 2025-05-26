@@ -18,7 +18,8 @@
 			"extensions": [
 				"tamasfe.even-better-toml",
 				"github.vscode-github-actions",
-				"budparr.language-hugo-vscode"
+				"budparr.language-hugo-vscode",
+				"yzhang.markdown-all-in-one"
 			]
 		}
 	}
