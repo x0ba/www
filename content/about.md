@@ -1,6 +1,6 @@
 +++
 date = '2025-05-26T19:53:20Z'
-draft = true
+draft = false
 title = 'About me'
 description = 'What do I do with my life?'
 author = 'Daniel Xu'
