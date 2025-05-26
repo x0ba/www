@@ -12,6 +12,15 @@
 			"version": "0.145.0",
 			"extended": true
 		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"tamasfe.even-better-toml",
+				"github.vscode-github-actions",
+				"budparr.language-hugo-vscode"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
