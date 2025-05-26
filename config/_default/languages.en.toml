@@ -1,0 +1,26 @@
+languageCode = "en-US"
+languageName = "English (U.S.)"
+languageDirection = "ltr"
+weight = 1
+
+title = "danielx.me"
+copyright = "&copy; 2025 Daniel Xu"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["projects", "writings"]
+  description = "Daniel's website"
+
+[params.author]
+  name = "Daniel Xu"
+  image = "img/pfp.jpg"
+  headline = "Math - CS Undergrad Student @ UCSD"
+  bio = "UCSD student studying Mathematics - Computer Science."
+  links = [
+    { email = "mailto:ddxu@ucsd.edu" },
+    { github = "https://github.com/x0ba" },
+    { instagram = "https://www.instagram.com/daniel.shooo/" },
+    { mastodon = "https://mastodon.social/@x0ba" },
+    { bluesky = "https://bsky.app/profile/danielx.me" },
+  ]
