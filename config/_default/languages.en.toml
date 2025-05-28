@@ -18,9 +18,7 @@ copyright = "&copy; 2025 Daniel Xu"
   headline = "Math - CS Undergrad Student @ UCSD"
   bio = "UCSD student studying Mathematics - Computer Science."
   links = [
-    { email = "mailto:ddxu@ucsd.edu" },
     { github = "https://github.com/x0ba" },
-    { instagram = "https://www.instagram.com/daniel.shooo/" },
     { mastodon = "https://mastodon.social/@x0ba" },
     { bluesky = "https://bsky.app/profile/danielx.me" },
   ]
