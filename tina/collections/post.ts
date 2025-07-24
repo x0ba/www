@@ -21,7 +21,6 @@ const Post: Collection = {
       type: 'string',
       name: 'tags',
       label: 'Tags',
-      description: 'Tags for this post',
       list: true,
       ui: {
         component: 'tags',
