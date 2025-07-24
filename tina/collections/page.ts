@@ -26,4 +26,4 @@ const Page: Collection = {
   ],
 };
 
-export default Post;
+export default Page;
