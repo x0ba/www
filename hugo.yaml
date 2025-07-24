@@ -18,7 +18,7 @@ params:
   keywords: [Blog, Portfolio]
   author: Me
   # author: ["Me", "You"] # multiple authors
-  DateFormat: "January 2, 2006"
+  DateFormat: "March 31, 2007"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
