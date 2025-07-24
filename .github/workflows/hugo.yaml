@@ -66,6 +66,7 @@ jobs:
         env:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+          INDEXER_TOKEN: ${{ secrets.INDEXER_TOKEN }}
         run: npx tinacms build
       - name: Build with Hugo
         run: |
