@@ -64,7 +64,7 @@ jobs:
         run: git config core.quotepath false
       - name: Build TinaCMS
         env:
-          NEXT_TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: npx tinacms build
       - name: Build with Hugo
