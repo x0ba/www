@@ -1,5 +1,5 @@
 baseURL: "https://danielx.me"
-title: Corner of Denial
+title: Daniel Xu
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -13,28 +13,25 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Corner of Denial
-  description: "Welcome to the Corner of Denial! Hi, I'm Daniel Xu! I'm a CS major at UCSD, and I play music."
+  title: Daniel Xu
+  description: "Hi, I'm Daniel Xu! I'm a CS major at UCSD, and I play music and write. This site is a collection of my ramblings and thoughts."
   keywords: [Blog, Portfolio]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
-  DateFormat: "March 31, 2007"
+  author: "Daniel Xu"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
+  UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
   showtoc: false
   tocopen: false
 
@@ -50,15 +47,15 @@ params:
     safari_pinned_tab: "apple-touch-icon.png"
 
   label:
-    text: "Home"
+    text: "Daniel Xu"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Welcome to the Corner of Denial!
-    subtitle: "Hey, I'm Daniel Xu! I'm a CS major at UCSD, and I play music."
+    title: Hey there! 👋
+    subtitle: "Hey, I'm Daniel! I'm a CS major at UCSD, and I play music and write. This site is a collection of my ramblings and thoughts."
     imageUrl: "pfp.png"
     imageWidth: 120
     imageHeight: 120
@@ -71,8 +68,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Welcome to the Corner of Denial!"
-    Content: "Hey, I'm Daniel Xu! I'm a CS major at UCSD, and I play music."
+    Title: "Hey there! 👋"
+    Content: "Hey, I'm Daniel! I'm a CS major at UCSD, and I play music and write. This site is a collection of my ramblings and thoughts."
 
   socialIcons:
     - name: mastodon
@@ -100,21 +97,21 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Home
-      name: Home
-      url: /
+    - identifier: Archives
+      name: Archives
+      url: /archives/
       weight: 10
-    - identifier: Posts
-      name: Posts
-      url: /posts/
-      weight: 20
     - identifier: RSS
       name: RSS
       url: /index.xml
-      weight: 30
+      weight: 20
     - identifier: Search
       name: Search
       url: /search
+      weight: 30
+    - identifier: Tags
+      name: Tags
+      url: /tags/
       weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
