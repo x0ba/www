@@ -73,7 +73,7 @@ params:
 
   socialIcons:
     - name: mastodon
-      url: "https://hachyderm.io/@x0ba"
+      url: "https://mastodon.social/@x0ba"
     - name: github
       url: "https://github.com/x0ba"
     - name: bluesky
