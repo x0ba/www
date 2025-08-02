@@ -4,6 +4,9 @@ const Page: Collection = {
   name: "page",
   label: "Pages",
   path: "content",
+  match: {
+    exclude: 'posts/**/**',
+  },
   fields: [
     {
       type: "string",
